@@ -116,8 +116,8 @@ trojan://6e2fce07-c264-42fe-a998-c7466f7c5302@dir01.netorigins2u.site:31201?allo
 ***请不要用分享的免费Trojan节点进行大流量下载，否则肯定会影响大家的使用体验。***<br/>
 ***如果您对Trojan免费节点不够满意，那么我推荐您使用更极速稳定的付费Trojan节点购买。***<br/>
 
-**免费注册试用: [抖音IP解锁专属节点](https://daishujiasu.tech/#/register?code=CyODmCJv))**<br/>
-**免费注册试用: [https://mikasa.cloud](https://daishujiasu.tech/#/register?code=nIEawcMr))**<br/>
-**免费注册试用: [https://mikasa.cloud](https://mikasa.cloud/index.php#/register?code=pVa1I1rA)**<br/>
+**免费注册试用: [抖音IP解锁专属节点](https://daishujiasu.tech/#/register?code=CyODmCJv)**<br/>
+**免费注册试用: [抖音IP解锁专属节点](https://daishujiasu.tech/#/register?code=nIEawcMr)**<br/>
+**免费注册试用: [抖音IP解锁专属节点](https://daishujiasu.tech/#/register?code=nIEawcMr)**<br/>
 
 **每日分享免费节点、免费机场、ssr节点、v2ray节点、v2ray订阅、clash节点、clash订阅、shadowrocket订阅、Quantumult X订阅、Clash .NET订阅、小火箭节点、小猫咪节点、免费翻墙、免费科学上网、免费梯子、免费trojan节点、蓝灯、谷歌商店、翻墙梯子、安卓VPN、iphone翻墙节点、iphone vpn、一键翻墙浏览器、节点分享、免费SSR、蓝灯、谷歌商店、V2ary免费节点、代理、proxy代理科学上网、TG代理、电报代理、Telegram代理、ip加速、翻墙软件、socks5、破解VPN、机场推荐、节点订阅、破解VPN**
