@@ -1,6 +1,6 @@
 Webstack网址导航
 ===
-### Demo: [➡️ www.webstack.cc](https://webstack.cc)
+### Demo: [➡️ blog.mxxfei1681.top](http://blog.mxxfei1681.top/)
 
 QQ群交流：304584722 ; QQ交流群2：740911918
 
