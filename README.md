@@ -31,7 +31,10 @@
   如果不是最新版本，请前往 Mikasa 官网下载最新版本。
 
 **TG电报群组: https://t.me/mikasacloudgrp**
-
+v2ray订阅：
+```
+https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/v2ray.txt
+```
 **每日公益流量有限，如果流量用尽，请前往官网注册账号**
 
 ```
