@@ -32,7 +32,7 @@
 
 **TG电报群组: https://t.me/mikasacloudgrp**
 
-**v2ray订阅：**
+**通用base64/v2ray订阅：**
 ```
 https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/v2ray.txt
 ```
