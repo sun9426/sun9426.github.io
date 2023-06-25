@@ -39,7 +39,7 @@
 注：如果全部节点不可用，请先检查客户端是否最新版本。<br/>
   如果不是最新版本，请前往 Mikasa 官网下载最新版本。
 
-**TG电报群组: https://t.me/mikasacloudgrp**
+**TG电报群组: [https://t.me/mikasacloudgrp](https://t.me/woniuxs)**
 
 ### 通用base64/v2ray订阅
 
