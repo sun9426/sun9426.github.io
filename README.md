@@ -3,13 +3,14 @@
 ## 导航
 - [简介](#无视高峰，全天4K高速秒开云加速器)
 - [活动](#6月活动：买1年送60天)
-- [免费节点](#使用方式)
+- [免费节点](#每日公益流量有限，如果流量用尽，请前往官网注册账号)
     - [v2ray订阅](#通用base64/v2ray订阅：)
     - [clash订阅](#节点更新clash订阅：)
 - [抖音改IP](#一个支持抖音改IP的机场️)
 
 
 ## 无视高峰，全天4K高速秒开云加速器
+
 ### BGP多线接入，高速低延迟
 ### 原生IP解锁流媒体
 
@@ -22,6 +23,7 @@
 **日本：Netflix | DMM | Disneyplus(不保证100%） | Abema | Hulu Japan | NicoNico | Telasa | Paravi | U-NEXT | TVer**
 
 ### 6月活动：买1年送60天
+
 ### 限时折扣：季付9折 半年付8.5折 年付8折
 
 | 套餐 | 每月流量 | 月付 | 季付(-10%) | 半年付(-15%) | 年付(-20%+送60天) |
@@ -40,11 +42,14 @@
 
 **TG电报群组: https://t.me/mikasacloudgrp**
 
-##**通用base64/v2ray订阅：**
+**通用base64/v2ray订阅：**
+
 ```
 https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/v2ray.txt
 ```
-##**节点更新clash订阅：**
+
+**节点更新clash订阅：**
+
 ```
 https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/Clash.yaml
 ```
