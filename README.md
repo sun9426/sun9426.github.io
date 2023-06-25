@@ -3,7 +3,7 @@
 ## 导航
 - [简介](#无视高峰，全天4K高速秒开云加速器)
 - [活动](#6月活动：买1年送60天)
-- [使用方式](#使用方式)
+- [免费节点](#使用方式)
     - [v2ray订阅](*通用base64/v2ray订阅：)
     - [clash订阅](*节点更新clash订阅：)
 - [抖音改IP](#一个支持抖音改IP的机场️)
@@ -40,11 +40,11 @@
 
 **TG电报群组: https://t.me/mikasacloudgrp**
 
-**通用base64/v2ray订阅：**
+##**通用base64/v2ray订阅：**
 ```
 https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/v2ray.txt
 ```
-**节点更新clash订阅：**
+##**节点更新clash订阅：**
 ```
 https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/Clash.yaml
 ```
