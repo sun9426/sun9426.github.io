@@ -36,6 +36,11 @@
 ```
 https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/v2ray.txt
 ```
+**节点更新clash订阅：**
+```
+https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/Clash.yaml
+```
+
 **每日公益流量有限，如果流量用尽，请前往官网注册账号**
 
 ```
