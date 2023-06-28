@@ -5,799 +5,551 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _加拿大_YUFEI_1, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}, udp: true}
-  - {name: _中国_YUFEI_2, server: 202.108.15.135, port: 443, type: vmess, uuid: 06a28663-4320-4a31-ab98-0ef8c1ef546b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cec6f2, headers: {Host: ttk.731808.tk}}, udp: true}
-  - {name: _中国_YUFEI_3, server: cm1-nc.go001.buzz, port: 19584, type: ss, cipher: chacha20-ietf-poly1305, password: 5dffba42-4be9-447e-a6d5-61567a360e70, udp: true}
-  - {name: _中国_YUFEI_4, server: cn-to-hk-443.db-link.in, port: 443, type: vmess, uuid: 40cbc750-a182-3fe2-8832-9fa6006354cf, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: free-to-us-01.db-link.in}}, udp: true}
-  - {name: _中国_YUFEI_5, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
-  - {name: _中国_YUFEI_6, server: us-08-cz2dg2.ferryhwp8ebm.com, port: 7308, type: trojan, password: 97d557df-6f6a-5bad-9483-600aba02da3a, sni: us-08-650.duuk.info, skip-cert-verify: true, udp: true}
-  - {name: _中国_YUFEI_7, server: zf.heigouyunzf.xyz, port: 38805, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: true, udp: true}
-  - {name: _哥斯达黎加_YUFEI_8, server: 190.93.246.151, port: 2052, type: vmess, uuid: 87959d44-4377-4557-cf36-2f7db9d790f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: xx.ylks01.eu.org}}, udp: true}
-  - {name: _法国_YUFEI_10, server: 156.249.18.69, port: 54802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _法国_YUFEI_11, server: 51.195.35.148, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _法国_YUFEI_12, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _法国_YUFEI_13, server: fr2.microsoft-orgwly.vip, port: 444, type: trojan, password: 3e1ff3a0-c427-486f-95cf-9207721f570b, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: _法国_YUFEI_14, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _法国_YUFEI_15, server: 156.249.18.69, port: 54802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _法国_YUFEI_16, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _法国_YUFEI_17, server: 156.249.18.159, port: 48123, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_YUFEI_18, server: 156.245.8.131, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_YUFEI_19, server: 156.245.8.142, port: 49110, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_YUFEI_20, server: 156.245.8.240, port: 49123, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_YUFEI_21, server: 156.245.8.158, port: 49934, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _香港_YUFEI_22, server: kr.stablize.top, port: 443, type: trojan, password: c8ad75e9-b071-446e-b2e3-ea93b8dd0324, skip-cert-verify: true, udp: true}
-  - {name: _印度_YUFEI_23, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: _香港_YUFEI_24, server: vpnhat.stablize.top, port: 443, type: trojan, password: 4d23cf0e-5ceb-43e7-90d3-63982bfa6940, sni: kr.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _日本_YUFEI_25, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: true, udp: true}
-  - {name: _日本_YUFEI_26, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: true, udp: true}
-  - {name: _荷兰_YUFEI_27, server: 45.153.203.89, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _荷兰_YUFEI_28, server: 154.84.1.112, port: 47852, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _荷兰_YUFEI_29, server: 154.85.1.245, port: 48231, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _阿曼_YUFEI_30, server: 134.0.219.37, port: 443, type: vmess, uuid: 0575c4de-8db2-4f44-837a-6afeae3e48f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: zero666.ddns.net}}, udp: true}
-  - {name: _阿曼_YUFEI_31, server: 134.0.219.37, port: 443, type: vmess, uuid: 24d61e4f-d201-43a0-d5ba-5740f63e5ac5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdimoghaddam05.ddns.net}}, udp: true}
-  - {name: _新加坡_YUFEI_32, server: jp.stablize.top, port: 443, type: trojan, password: 40297165-0545-4f8f-abc4-3ee25e6cfb87, skip-cert-verify: true, udp: true}
-  - {name: _新加坡_YUFEI_33, server: jp.stablize.top, port: 443, type: trojan, password: 4d23cf0e-5ceb-43e7-90d3-63982bfa6940, skip-cert-verify: true, udp: true}
-  - {name: _台湾_YUFEI_34, server: hnm.xiaohouzi.club, port: 23330, type: trojan, password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_35, server: 137.175.9.204, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_36, server: 45.199.138.53, port: 45016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_37, server: 45.199.138.33, port: 49123, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_38, server: 140.99.57.4, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_39, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _美国_YUFEI_40, server: 137.175.11.147, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_41, server: 45.12.144.91, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_42, server: 156.225.67.102, port: 47721, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_43, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_44, server: 140.99.128.82, port: 41065, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_45, server: 171.22.134.10, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_46, server: 23.224.255.242, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.77039717.xyz}}, udp: true}
-  - {name: _美国_YUFEI_47, server: 74.217.179.156, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687585966632, headers: {Host: www.43752841.xyz}}, udp: true}
-  - {name: _美国_YUFEI_48, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_49, server: 140.99.46.24, port: 43033, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_50, server: 45.15.166.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.52033619.xyz}}, udp: true}
-  - {name: _美国_YUFEI_51, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: _美国_YUFEI_52, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_53, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_54, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_55, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_56, server: 142.4.112.152, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_57, server: 192.74.236.7, port: 41133, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_58, server: 156.225.67.123, port: 52808, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_59, server: 198.2.203.156, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_60, server: 137.175.15.208, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.83524650.xyz}}, udp: true}
-  - {name: _美国_YUFEI_61, server: 142.4.104.204, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_62, server: 137.175.41.203, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_63, server: 45.86.8.88, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_64, server: 198.2.203.156, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_65, server: 23.224.255.174, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.53638055.xyz}}, udp: true}
-  - {name: _美国_YUFEI_66, server: 137.175.58.81, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.33337768.xyz}}, udp: true}
-  - {name: _美国_YUFEI_67, server: 45.199.138.76, port: 49598, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_68, server: 156.225.67.52, port: 32349, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_69, server: 142.4.126.44, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_70, server: 137.175.18.68, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687769375611, headers: {Host: www.66273264.xyz}}, udp: true}
-  - {name: _美国_YUFEI_71, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: _美国_YUFEI_72, server: 38.54.167.248, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687769375611, headers: {Host: www.76381584.xyz}}, udp: true}
-  - {name: _美国_YUFEI_73, server: 74.217.179.150, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687684544019, headers: {Host: www.71322451.xyz}}, udp: true}
-  - {name: _美国_YUFEI_74, server: 38.54.167.248, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.76381584.xyz}}, udp: true}
-  - {name: _美国_YUFEI_75, server: 104.18.204.99, port: 2096, type: vmess, uuid: f8c8962d-ecf1-4155-a6e3-b44bd3a9acea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
-  - {name: _美国_YUFEI_76, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: _美国_YUFEI_77, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_78, server: 198.2.199.11, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687769375611, headers: {Host: www.60321304.xyz}}, udp: true}
-  - {name: _美国_YUFEI_79, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: _美国_YUFEI_80, server: 192.74.250.73, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.87606143.xyz}}, udp: true}
-  - {name: _美国_YUFEI_81, server: 45.86.8.102, port: 49004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_82, server: 156.225.67.233, port: 48123, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_83, server: 156.225.67.207, port: 40934, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_84, server: 156.225.67.131, port: 48123, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_85, server: 45.199.138.56, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_86, server: 172.64.206.43, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
-  - {name: _美国_YUFEI_87, server: 192.74.236.19, port: 41866, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_88, server: 156.225.67.111, port: 45125, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_89, server: 199.188.105.141, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_90, server: 140.99.155.99, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.68178927.xyz}}, udp: true}
-  - {name: _美国_YUFEI_91, server: 142.4.115.162, port: 56079, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_92, server: 74.217.179.156, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.43752841.xyz}}, udp: true}
-  - {name: _美国_YUFEI_93, server: 45.199.138.4, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_94, server: 156.225.67.247, port: 49443, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_95, server: 38.63.0.78, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_96, server: 142.4.106.83, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_97, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /files, headers: {Host: sg.xmbb.net}}, udp: true}
-  - {name: _美国_YUFEI_98, server: 45.199.138.51, port: 42994, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_99, server: 156.225.67.73, port: 48123, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_100, server: 142.4.110.28, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_101, server: 140.99.155.99, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687684544019, headers: {Host: www.68178927.xyz}}, udp: true}
-  - {name: _美国_YUFEI_102, server: 45.199.138.59, port: 49291, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_103, server: 192.74.244.209, port: 54044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_104, server: 156.225.67.223, port: 48021, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_105, server: 198.2.204.244, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_106, server: 137.175.9.204, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_107, server: 45.199.138.62, port: 41298, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_108, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_109, server: 140.99.142.69, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_110, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_111, server: 142.4.115.181, port: 40123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_112, server: 198.2.204.243, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_113, server: 107.148.194.241, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_114, server: 137.175.58.66, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_115, server: 142.4.126.47, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_116, server: 192.74.250.106, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_117, server: 192.74.232.226, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_118, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: _美国_YUFEI_119, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_120, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_121, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_122, server: 192.74.234.185, port: 51322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_123, server: 45.199.138.79, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_124, server: 142.4.127.19, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_125, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_126, server: 45.199.138.11, port: 49123, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_127, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_128, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_129, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_130, server: 137.175.1.53, port: 46677, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_131, server: 142.4.104.58, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_132, server: 192.74.234.166, port: 55337, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_133, server: 192.74.234.135, port: 49872, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_134, server: 140.99.129.203, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_135, server: 142.4.112.1, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_136, server: 137.175.9.204, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_137, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_138, server: 170.178.167.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_139, server: 172.247.67.46, port: 50035, type: vmess, uuid: 2278efe4-ad0c-47ce-9480-068608368d76, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_140, server: 142.4.104.204, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_141, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_142, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_143, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_144, server: 142.4.104.201, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_145, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_146, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}, udp: true}
-  - {name: _美国_YUFEI_147, server: 142.4.112.149, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_148, server: 104.16.32.142, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: QkGxa2MSvmu.janbaroon.com}}, udp: true}
-  - {name: _美国_YUFEI_149, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _美国_YUFEI_150, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}, udp: true}
-  - {name: _美国_YUFEI_151, server: 162.159.243.233, port: 443, type: vmess, uuid: 06a28663-4320-4a31-ab98-0ef8c1ef546b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cec6f2, headers: {Host: ttk.731808.tk}}, udp: true}
-  - {name: _美国_YUFEI_152, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: _美国_YUFEI_153, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: _美国_YUFEI_154, server: 104.21.7.244, port: 8080, type: vmess, uuid: a1bed870-013d-4555-becd-584b00249f3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: xx.ylks01.eu.org}}, udp: true}
-  - {name: _美国_YUFEI_155, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_156, server: 137.175.1.1, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_157, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_158, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_159, server: 107.167.29.42, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_161, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: _美国_YUFEI_162, server: 198.41.215.91, port: 2052, type: vmess, uuid: 87959d44-4377-4557-cf36-2f7db9d790f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: xx.ylks01.eu.org}}, udp: true}
-  - {name: _美国_YUFEI_163, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_164, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: _美国_YUFEI_165, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_166, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: _美国_YUFEI_167, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: _美国_YUFEI_168, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: _美国_YUFEI_169, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-  - {name: _美国_YUFEI_170, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: _美国_YUFEI_171, server: 38.60.194.132, port: 8080, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_172, server: 82.117.255.92, port: 443, type: vmess, uuid: b91bf074-faa1-4ce2-9e9e-e9150a86d0cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_173, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: _美国_YUFEI_174, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}, udp: true}
-  - {name: _美国_YUFEI_175, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
-  - {name: _美国_YUFEI_176, server: 82.117.255.92, port: 443, type: vmess, uuid: b91bf074-faa1-4ce2-9e9e-e9150a86d0cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_177, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: _美国_YUFEI_178, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}, udp: true}
-  - {name: _美国_YUFEI_179, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_180, server: 192.74.234.151, port: 42329, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_181, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_182, server: 140.99.77.57, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_183, server: 142.4.110.101, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_184, server: 64.32.4.44, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_185, server: 198.2.204.241, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_186, server: 185.156.111.105, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_187, server: 192.74.235.194, port: 50040, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_188, server: 192.74.250.121, port: 47982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_189, server: 140.99.49.56, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_190, server: 192.74.228.162, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_191, server: 74.217.179.190, port: 40042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_192, server: 198.2.204.241, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_193, server: 192.74.250.88, port: 55832, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_194, server: 142.4.99.93, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_195, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YUFEI_196, server: 45.199.138.70, port: 42929, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_55, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: _JP_日本_18, server: kr.stablize.top, port: 443, type: trojan, password: c8ad75e9-b071-446e-b2e3-ea93b8dd0324, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_141, server: 198.41.215.91, port: 2052, type: vmess, uuid: 87959d44-4377-4557-cf36-2f7db9d790f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: xx.ylks01.eu.org}}, udp: true}
+  - {name: _US_美国_80, server: 104.18.204.99, port: 2096, type: vmess, uuid: f8c8962d-ecf1-4155-a6e3-b44bd3a9acea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
+  - {name: _US_美国_50, server: 54.192.150.188, port: 443, type: vmess, uuid: b393a93b-ae0f-4b3a-b049-b1a81a3e490a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /share, headers: {Host: d2kzpvdyi8xw4u.cloudfront.net}}, udp: true}
+  - {name: _KR_韩国_21, server: kr4.jisuyun.co, port: 443, type: vmess, uuid: 28f57cb0-f336-46e6-b040-fcc138affb29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YTB-AWKJ}}, udp: true}
+  - {name: _US_美国_99, server: 142.4.115.181, port: 40123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_124, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_132, server: 192.74.236.19, port: 41866, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_116, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _DE_英国_8, server: 51.195.35.148, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰_14, server: 156.245.8.142, port: 49110, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_84, server: 140.99.57.4, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_95, server: 142.4.112.1, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_101, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_125, server: 192.74.232.226, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_126, server: 107.148.194.241, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_66, server: 137.175.1.53, port: 46677, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰_13, server: 156.245.8.131, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_105, server: 156.225.67.102, port: 47721, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_32, server: 38.54.167.248, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.76381584.xyz}}, udp: true}
+  - {name: _US_美国_98, server: 142.4.115.162, port: 56079, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_89, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_83, server: 140.99.49.56, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰_10, server: 156.249.18.69, port: 54802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_109, server: 156.225.67.233, port: 48123, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_97, server: 142.4.112.152, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰_26, server: 154.85.1.245, port: 48231, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_134, server: 192.74.244.209, port: 54044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_136, server: 192.74.250.121, port: 47982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_43, server: 45.199.138.59, port: 49291, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_135, server: 192.74.250.106, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_117, server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: _US_美国_46, server: 45.199.138.76, port: 49598, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_88, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰_25, server: 154.84.1.112, port: 47852, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_113, server: 156.225.67.73, port: 48123, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_38, server: 45.199.138.33, port: 49123, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_42, server: 45.199.138.56, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_82, server: 140.99.46.24, port: 43033, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_114, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_107, server: 156.225.67.131, port: 48123, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_112, server: 156.225.67.52, port: 32349, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_121, server: 172.67.252.221, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
+  - {name: _US_美国_143, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_133, server: 192.74.236.7, port: 41133, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_37, server: 45.199.138.11, port: 49123, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_45, server: 45.199.138.70, port: 42929, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰_9, server: 156.249.18.159, port: 48123, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_130, server: 192.74.234.185, port: 51322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_108, server: 156.225.67.223, port: 48021, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_111, server: 156.225.67.247, port: 49443, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_40, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_127, server: 192.74.234.135, port: 49872, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_56, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: _US_美国_115, server: 162.159.243.233, port: 443, type: vmess, uuid: 06a28663-4320-4a31-ab98-0ef8c1ef546b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cec6f2, headers: {Host: ttk.731808.tk}}, udp: true}
+  - {name: _US_美国_73, server: 137.175.58.66, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _IN_印度_16, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: _OM_澳大利亚_27, server: 134.0.219.37, port: 443, type: vmess, uuid: 0575c4de-8db2-4f44-837a-6afeae3e48f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: zero666.ddns.net}}, udp: true}
+  - {name: _US_美国_63, server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
+  - {name: _NL_荷兰_15, server: 156.245.8.240, port: 49123, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_57, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: _US_美国_144, server: 23.224.255.174, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.53638055.xyz}}, udp: true}
+  - {name: _US_美国_71, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_118, server: 170.178.167.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_145, server: 23.224.255.242, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.77039717.xyz}}, udp: true}
+  - {name: _US_美国_120, server: 172.247.67.46, port: 50035, type: vmess, uuid: 2278efe4-ad0c-47ce-9480-068608368d76, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_102, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}, udp: true}
+  - {name: _US_美国_92, server: 142.4.104.201, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_138, server: 192.74.250.73, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.87606143.xyz}}, udp: true}
+  - {name: _US_美国_58, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: _US_美国_31, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_122, server: 192.74.228.162, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_34, server: 38.63.0.78, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_128, server: 192.74.234.151, port: 42329, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_106, server: 156.225.67.123, port: 52808, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_139, server: 192.74.250.88, port: 55832, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_119, server: 171.22.134.10, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港_11, server: cn-to-hk-443.db-link.in, port: 443, type: vmess, uuid: 40cbc750-a182-3fe2-8832-9fa6006354cf, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: free-to-us-01.db-link.in}}, udp: true}
+  - {name: _US_美国_140, server: 198.2.203.156, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_72, server: 137.175.41.203, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_70, server: 137.175.15.208, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.83524650.xyz}}, udp: true}
+  - {name: _US_美国_36, server: 45.15.166.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.52033619.xyz}}, udp: true}
+  - {name: _US_美国_64, server: 137.175.1.1, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_129, server: 192.74.234.166, port: 55337, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_100, server: 142.4.126.47, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_74, server: 137.175.9.204, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_81, server: 140.99.155.99, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687684544019, headers: {Host: www.68178927.xyz}}, udp: true}
+  - {name: _US_美国_94, server: 142.4.110.101, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_131, server: 192.74.235.194, port: 50040, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_85, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_77, server: 140.99.129.203, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_103, server: 142.4.127.19, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_68, server: 137.175.11.147, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_44, server: 45.199.138.62, port: 41298, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_93, server: 142.4.106.83, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_65, server: 137.175.1.13, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_67, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_104, server: 142.4.99.93, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_47, server: 45.199.138.79, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_78, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_76, server: 140.99.128.82, port: 41065, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_79, server: 140.99.142.69, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_87, server: 140.99.77.57, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_49, server: 45.86.8.88, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_39, server: 45.199.138.4, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_23, server: 45.153.203.89, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_41, server: 45.199.138.51, port: 42994, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_35, server: 45.12.144.91, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_86, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_123, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_59, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
+  - {name: _US_美国_52, server: 74.217.179.156, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687585966632, headers: {Host: www.43752841.xyz}}, udp: true}
+  - {name: _US_美国_75, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_62, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: _JP_日本_17, server: jp.stablize.top, port: 443, type: trojan, password: 40297165-0545-4f8f-abc4-3ee25e6cfb87, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡_28, server: 0kxedm1x8q8lksmj17.xingbayun.buzz, port: 443, type: vmess, uuid: 1ed5bca2-9765-4518-b35a-0808227cb2b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: _US_美国_96, server: 142.4.112.149, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_110, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
+  - {name: _US_美国_137, server: 107.167.29.42, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国_29, server: vpnhat.stablize.top, port: 443, type: trojan, password: 4d23cf0e-5ceb-43e7-90d3-63982bfa6940, sni: kr.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_48, server: 45.86.8.102, port: 49004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_53, server: 74.217.179.190, port: 40042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_61, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}, udp: true}
+  - {name: _US_美国_33, server: 38.60.194.132, port: 8080, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾_30, server: hnm.xiaohouzi.club, port: 23330, type: trojan, password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本_19, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: true, udp: true}
+  - {name: _DE_英国_12, server: ukjs.stablize.top, port: 443, type: trojan, password: b3ca2e8a-42d5-448c-a445-639870ccc20e, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_146, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_51, server: 64.32.4.44, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_2, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_5, server: us-08-cz2dg2.ferryhwp8ebm.com, port: 7308, type: trojan, password: 97d557df-6f6a-5bad-9483-600aba02da3a, sni: us-08-650.duuk.info, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -816,810 +568,557 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _香港_YUFEI_24
-      - _台湾_YUFEI_34
+      - _HK_香港_11
+      - _TW_台湾_30
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1635,200 +1134,138 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _加拿大_YUFEI_1
-      - _中国_YUFEI_2
-      - _中国_YUFEI_3
-      - _中国_YUFEI_4
-      - _中国_YUFEI_5
-      - _中国_YUFEI_6
-      - _中国_YUFEI_7
-      - _哥斯达黎加_YUFEI_8
-      - _法国_YUFEI_10
-      - _法国_YUFEI_11
-      - _法国_YUFEI_12
-      - _法国_YUFEI_13
-      - _法国_YUFEI_14
-      - _法国_YUFEI_15
-      - _法国_YUFEI_16
-      - _法国_YUFEI_17
-      - _香港_YUFEI_18
-      - _香港_YUFEI_19
-      - _香港_YUFEI_20
-      - _香港_YUFEI_21
-      - _香港_YUFEI_22
-      - _印度_YUFEI_23
-      - _香港_YUFEI_24
-      - _日本_YUFEI_25
-      - _日本_YUFEI_26
-      - _荷兰_YUFEI_27
-      - _荷兰_YUFEI_28
-      - _荷兰_YUFEI_29
-      - _阿曼_YUFEI_30
-      - _阿曼_YUFEI_31
-      - _新加坡_YUFEI_32
-      - _新加坡_YUFEI_33
-      - _台湾_YUFEI_34
-      - _美国_YUFEI_35
-      - _美国_YUFEI_36
-      - _美国_YUFEI_37
-      - _美国_YUFEI_38
-      - _美国_YUFEI_39
-      - _美国_YUFEI_40
-      - _美国_YUFEI_41
-      - _美国_YUFEI_42
-      - _美国_YUFEI_43
-      - _美国_YUFEI_44
-      - _美国_YUFEI_45
-      - _美国_YUFEI_46
-      - _美国_YUFEI_47
-      - _美国_YUFEI_48
-      - _美国_YUFEI_49
-      - _美国_YUFEI_50
-      - _美国_YUFEI_51
-      - _美国_YUFEI_52
-      - _美国_YUFEI_53
-      - _美国_YUFEI_54
-      - _美国_YUFEI_55
-      - _美国_YUFEI_56
-      - _美国_YUFEI_57
-      - _美国_YUFEI_58
-      - _美国_YUFEI_59
-      - _美国_YUFEI_60
-      - _美国_YUFEI_61
-      - _美国_YUFEI_62
-      - _美国_YUFEI_63
-      - _美国_YUFEI_64
-      - _美国_YUFEI_65
-      - _美国_YUFEI_66
-      - _美国_YUFEI_67
-      - _美国_YUFEI_68
-      - _美国_YUFEI_69
-      - _美国_YUFEI_70
-      - _美国_YUFEI_71
-      - _美国_YUFEI_72
-      - _美国_YUFEI_73
-      - _美国_YUFEI_74
-      - _美国_YUFEI_75
-      - _美国_YUFEI_76
-      - _美国_YUFEI_77
-      - _美国_YUFEI_78
-      - _美国_YUFEI_79
-      - _美国_YUFEI_80
-      - _美国_YUFEI_81
-      - _美国_YUFEI_82
-      - _美国_YUFEI_83
-      - _美国_YUFEI_84
-      - _美国_YUFEI_85
-      - _美国_YUFEI_86
-      - _美国_YUFEI_87
-      - _美国_YUFEI_88
-      - _美国_YUFEI_89
-      - _美国_YUFEI_90
-      - _美国_YUFEI_91
-      - _美国_YUFEI_92
-      - _美国_YUFEI_93
-      - _美国_YUFEI_94
-      - _美国_YUFEI_95
-      - _美国_YUFEI_96
-      - _美国_YUFEI_97
-      - _美国_YUFEI_98
-      - _美国_YUFEI_99
-      - _美国_YUFEI_100
-      - _美国_YUFEI_101
-      - _美国_YUFEI_102
-      - _美国_YUFEI_103
-      - _美国_YUFEI_104
-      - _美国_YUFEI_105
-      - _美国_YUFEI_106
-      - _美国_YUFEI_107
-      - _美国_YUFEI_108
-      - _美国_YUFEI_109
-      - _美国_YUFEI_110
-      - _美国_YUFEI_111
-      - _美国_YUFEI_112
-      - _美国_YUFEI_113
-      - _美国_YUFEI_114
-      - _美国_YUFEI_115
-      - _美国_YUFEI_116
-      - _美国_YUFEI_117
-      - _美国_YUFEI_118
-      - _美国_YUFEI_119
-      - _美国_YUFEI_120
-      - _美国_YUFEI_121
-      - _美国_YUFEI_122
-      - _美国_YUFEI_123
-      - _美国_YUFEI_124
-      - _美国_YUFEI_125
-      - _美国_YUFEI_126
-      - _美国_YUFEI_127
-      - _美国_YUFEI_128
-      - _美国_YUFEI_129
-      - _美国_YUFEI_130
-      - _美国_YUFEI_131
-      - _美国_YUFEI_132
-      - _美国_YUFEI_133
-      - _美国_YUFEI_134
-      - _美国_YUFEI_135
-      - _美国_YUFEI_136
-      - _美国_YUFEI_137
-      - _美国_YUFEI_138
-      - _美国_YUFEI_139
-      - _美国_YUFEI_140
-      - _美国_YUFEI_141
-      - _美国_YUFEI_142
-      - _美国_YUFEI_143
-      - _美国_YUFEI_144
-      - _美国_YUFEI_145
-      - _美国_YUFEI_146
-      - _美国_YUFEI_147
-      - _美国_YUFEI_148
-      - _美国_YUFEI_149
-      - _美国_YUFEI_150
-      - _美国_YUFEI_151
-      - _美国_YUFEI_152
-      - _美国_YUFEI_153
-      - _美国_YUFEI_154
-      - _美国_YUFEI_155
-      - _美国_YUFEI_156
-      - _美国_YUFEI_157
-      - _美国_YUFEI_158
-      - _美国_YUFEI_159
-      - _美国_YUFEI_161
-      - _美国_YUFEI_162
-      - _美国_YUFEI_163
-      - _美国_YUFEI_164
-      - _美国_YUFEI_165
-      - _美国_YUFEI_166
-      - _美国_YUFEI_167
-      - _美国_YUFEI_168
-      - _美国_YUFEI_169
-      - _美国_YUFEI_170
-      - _美国_YUFEI_171
-      - _美国_YUFEI_172
-      - _美国_YUFEI_173
-      - _美国_YUFEI_174
-      - _美国_YUFEI_175
-      - _美国_YUFEI_176
-      - _美国_YUFEI_177
-      - _美国_YUFEI_178
-      - _美国_YUFEI_179
-      - _美国_YUFEI_180
-      - _美国_YUFEI_181
-      - _美国_YUFEI_182
-      - _美国_YUFEI_183
-      - _美国_YUFEI_184
-      - _美国_YUFEI_185
-      - _美国_YUFEI_186
-      - _美国_YUFEI_187
-      - _美国_YUFEI_188
-      - _美国_YUFEI_189
-      - _美国_YUFEI_190
-      - _美国_YUFEI_191
-      - _美国_YUFEI_192
-      - _美国_YUFEI_193
-      - _美国_YUFEI_194
-      - _美国_YUFEI_195
-      - _美国_YUFEI_196
+      - _US_美国_55
+      - _JP_日本_18
+      - _US_美国_141
+      - _US_美国_80
+      - _US_美国_50
+      - _KR_韩国_21
+      - _US_美国_99
+      - _US_美国_124
+      - _US_美国_132
+      - _US_美国_116
+      - _DE_英国_8
+      - _NL_荷兰_14
+      - _US_美国_84
+      - _US_美国_95
+      - _US_美国_101
+      - _US_美国_125
+      - _US_美国_126
+      - _US_美国_66
+      - _NL_荷兰_13
+      - _US_美国_105
+      - _US_美国_32
+      - _US_美国_98
+      - _US_美国_89
+      - _US_美国_83
+      - _NL_荷兰_10
+      - _US_美国_109
+      - _US_美国_97
+      - _NL_荷兰_26
+      - _US_美国_134
+      - _US_美国_136
+      - _US_美国_43
+      - _US_美国_135
+      - _US_美国_117
+      - _US_美国_46
+      - _US_美国_88
+      - _NL_荷兰_25
+      - _US_美国_113
+      - _US_美国_38
+      - _US_美国_42
+      - _US_美国_82
+      - _US_美国_114
+      - _US_美国_107
+      - _US_美国_112
+      - _US_美国_121
+      - _US_美国_143
+      - _US_美国_133
+      - _US_美国_37
+      - _US_美国_45
+      - _NL_荷兰_9
+      - _US_美国_130
+      - _US_美国_108
+      - _US_美国_111
+      - _US_美国_40
+      - _US_美国_127
+      - _US_美国_56
+      - _US_美国_115
+      - _US_美国_73
+      - _IN_印度_16
+      - _OM_澳大利亚_27
+      - _US_美国_63
+      - _NL_荷兰_15
+      - _US_美国_57
+      - _US_美国_144
+      - _US_美国_71
+      - _US_美国_118
+      - _US_美国_145
+      - _US_美国_120
+      - _US_美国_102
+      - _US_美国_92
+      - _US_美国_138
+      - _US_美国_58
+      - _US_美国_31
+      - _US_美国_122
+      - _US_美国_34
+      - _US_美国_128
+      - _US_美国_106
+      - _US_美国_139
+      - _US_美国_119
+      - _HK_香港_11
+      - _US_美国_140
+      - _US_美国_72
+      - _US_美国_70
+      - _US_美国_36
+      - _US_美国_64
+      - _US_美国_129
+      - _US_美国_100
+      - _US_美国_74
+      - _US_美国_81
+      - _US_美国_94
+      - _US_美国_131
+      - _US_美国_85
+      - _US_美国_77
+      - _US_美国_103
+      - _US_美国_68
+      - _US_美国_44
+      - _US_美国_93
+      - _US_美国_65
+      - _US_美国_67
+      - _US_美国_104
+      - _US_美国_47
+      - _US_美国_78
+      - _US_美国_76
+      - _US_美国_79
+      - _US_美国_87
+      - _US_美国_49
+      - _US_美国_39
+      - _US_美国_23
+      - _US_美国_41
+      - _US_美国_35
+      - _US_美国_86
+      - _US_美国_123
+      - _US_美国_59
+      - _US_美国_52
+      - _US_美国_75
+      - _US_美国_62
+      - _JP_日本_17
+      - _SG_新加坡_28
+      - _US_美国_96
+      - _US_美国_110
+      - _US_美国_137
+      - _KR_韩国_29
+      - _US_美国_48
+      - _US_美国_53
+      - _US_美国_61
+      - _US_美国_33
+      - _TW_台湾_30
+      - _JP_日本_19
+      - _DE_英国_12
+      - _US_美国_146
+      - _US_美国_51
+      - _CN_中国_2
+      - _CN_中国_5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -12067,4 +11504,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-Monica 对照式翻译
