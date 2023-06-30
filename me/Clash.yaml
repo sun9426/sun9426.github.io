@@ -5,551 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国_55, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: _JP_日本_18, server: kr.stablize.top, port: 443, type: trojan, password: c8ad75e9-b071-446e-b2e3-ea93b8dd0324, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_141, server: 198.41.215.91, port: 2052, type: vmess, uuid: 87959d44-4377-4557-cf36-2f7db9d790f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: xx.ylks01.eu.org}}, udp: true}
-  - {name: _US_美国_80, server: 104.18.204.99, port: 2096, type: vmess, uuid: f8c8962d-ecf1-4155-a6e3-b44bd3a9acea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
-  - {name: _US_美国_50, server: 54.192.150.188, port: 443, type: vmess, uuid: b393a93b-ae0f-4b3a-b049-b1a81a3e490a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /share, headers: {Host: d2kzpvdyi8xw4u.cloudfront.net}}, udp: true}
-  - {name: _KR_韩国_21, server: kr4.jisuyun.co, port: 443, type: vmess, uuid: 28f57cb0-f336-46e6-b040-fcc138affb29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: YTB-AWKJ}}, udp: true}
-  - {name: _US_美国_99, server: 142.4.115.181, port: 40123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_124, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_132, server: 192.74.236.19, port: 41866, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_116, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _DE_英国_8, server: 51.195.35.148, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_14, server: 156.245.8.142, port: 49110, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本, server: 45.88.43.232, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_23, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
+  - {name: _US_美国_24, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
   - {name: _US_美国_84, server: 140.99.57.4, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_95, server: 142.4.112.1, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_101, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_125, server: 192.74.232.226, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_126, server: 107.148.194.241, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_66, server: 137.175.1.53, port: 46677, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_13, server: 156.245.8.131, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_105, server: 156.225.67.102, port: 47721, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_32, server: 38.54.167.248, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.76381584.xyz}}, udp: true}
-  - {name: _US_美国_98, server: 142.4.115.162, port: 56079, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_89, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_83, server: 140.99.49.56, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_10, server: 156.249.18.69, port: 54802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_109, server: 156.225.67.233, port: 48123, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_97, server: 142.4.112.152, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_26, server: 154.85.1.245, port: 48231, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_134, server: 192.74.244.209, port: 54044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_136, server: 192.74.250.121, port: 47982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_43, server: 45.199.138.59, port: 49291, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_135, server: 192.74.250.106, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_117, server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: _US_美国_46, server: 45.199.138.76, port: 49598, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_88, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_25, server: 154.84.1.112, port: 47852, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_113, server: 156.225.67.73, port: 48123, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_38, server: 45.199.138.33, port: 49123, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_42, server: 45.199.138.56, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_82, server: 140.99.46.24, port: 43033, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_114, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_107, server: 156.225.67.131, port: 48123, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_112, server: 156.225.67.52, port: 32349, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_121, server: 172.67.252.221, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
-  - {name: _US_美国_143, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_133, server: 192.74.236.7, port: 41133, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_37, server: 45.199.138.11, port: 49123, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_45, server: 45.199.138.70, port: 42929, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_9, server: 156.249.18.159, port: 48123, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_130, server: 192.74.234.185, port: 51322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_108, server: 156.225.67.223, port: 48021, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_111, server: 156.225.67.247, port: 49443, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_40, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_127, server: 192.74.234.135, port: 49872, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_56, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: _US_美国_115, server: 162.159.243.233, port: 443, type: vmess, uuid: 06a28663-4320-4a31-ab98-0ef8c1ef546b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cec6f2, headers: {Host: ttk.731808.tk}}, udp: true}
-  - {name: _US_美国_73, server: 137.175.58.66, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度_16, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
-  - {name: _OM_澳大利亚_27, server: 134.0.219.37, port: 443, type: vmess, uuid: 0575c4de-8db2-4f44-837a-6afeae3e48f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: zero666.ddns.net}}, udp: true}
-  - {name: _US_美国_63, server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}, udp: true}
-  - {name: _NL_荷兰_15, server: 156.245.8.240, port: 49123, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_57, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: _US_美国_144, server: 23.224.255.174, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.53638055.xyz}}, udp: true}
-  - {name: _US_美国_71, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_118, server: 170.178.167.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_145, server: 23.224.255.242, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.77039717.xyz}}, udp: true}
-  - {name: _US_美国_120, server: 172.247.67.46, port: 50035, type: vmess, uuid: 2278efe4-ad0c-47ce-9480-068608368d76, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_102, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}, udp: true}
-  - {name: _US_美国_92, server: 142.4.104.201, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_138, server: 192.74.250.73, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.87606143.xyz}}, udp: true}
-  - {name: _US_美国_58, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: _US_美国_31, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_122, server: 192.74.228.162, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_34, server: 38.63.0.78, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_128, server: 192.74.234.151, port: 42329, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_106, server: 156.225.67.123, port: 52808, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_139, server: 192.74.250.88, port: 55832, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_119, server: 171.22.134.10, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港_11, server: cn-to-hk-443.db-link.in, port: 443, type: vmess, uuid: 40cbc750-a182-3fe2-8832-9fa6006354cf, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: free-to-us-01.db-link.in}}, udp: true}
-  - {name: _US_美国_140, server: 198.2.203.156, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_72, server: 137.175.41.203, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_70, server: 137.175.15.208, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.83524650.xyz}}, udp: true}
-  - {name: _US_美国_36, server: 45.15.166.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687857647696, headers: {Host: www.52033619.xyz}}, udp: true}
-  - {name: _US_美国_64, server: 137.175.1.1, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_129, server: 192.74.234.166, port: 55337, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_100, server: 142.4.126.47, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_74, server: 137.175.9.204, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_81, server: 140.99.155.99, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687684544019, headers: {Host: www.68178927.xyz}}, udp: true}
-  - {name: _US_美国_94, server: 142.4.110.101, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_131, server: 192.74.235.194, port: 50040, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_85, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_77, server: 140.99.129.203, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_103, server: 142.4.127.19, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_68, server: 137.175.11.147, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_44, server: 45.199.138.62, port: 41298, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_93, server: 142.4.106.83, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_65, server: 137.175.1.13, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_67, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_104, server: 142.4.99.93, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: _US_美国_47, server: 45.199.138.79, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_78, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_76, server: 140.99.128.82, port: 41065, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_79, server: 140.99.142.69, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_87, server: 140.99.77.57, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_49, server: 45.86.8.88, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_39, server: 45.199.138.4, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_23, server: 45.153.203.89, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_41, server: 45.199.138.51, port: 42994, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_35, server: 45.12.144.91, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_86, server: 140.99.77.25, port: 50332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_123, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_59, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: _US_美国_52, server: 74.217.179.156, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1687585966632, headers: {Host: www.43752841.xyz}}, udp: true}
-  - {name: _US_美国_75, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_62, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: _JP_日本_17, server: jp.stablize.top, port: 443, type: trojan, password: 40297165-0545-4f8f-abc4-3ee25e6cfb87, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_28, server: 0kxedm1x8q8lksmj17.xingbayun.buzz, port: 443, type: vmess, uuid: 1ed5bca2-9765-4518-b35a-0808227cb2b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: _US_美国_96, server: 142.4.112.149, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_110, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
-  - {name: _US_美国_137, server: 107.167.29.42, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _KR_韩国_29, server: vpnhat.stablize.top, port: 443, type: trojan, password: 4d23cf0e-5ceb-43e7-90d3-63982bfa6940, sni: kr.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_48, server: 45.86.8.102, port: 49004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_53, server: 74.217.179.190, port: 40042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_61, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}, udp: true}
-  - {name: _US_美国_33, server: 38.60.194.132, port: 8080, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾_30, server: hnm.xiaohouzi.club, port: 23330, type: trojan, password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_19, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: true, udp: true}
-  - {name: _DE_英国_12, server: ukjs.stablize.top, port: 443, type: trojan, password: b3ca2e8a-42d5-448c-a445-639870ccc20e, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_146, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_51, server: 64.32.4.44, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国_2, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国_5, server: us-08-cz2dg2.ferryhwp8ebm.com, port: 7308, type: trojan, password: 97d557df-6f6a-5bad-9483-600aba02da3a, sni: us-08-650.duuk.info, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_97, server: 140.99.129.203, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_110, server: 192.74.234.135, port: 49872, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_111, server: 38.26.135.6, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_80, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_134, server: 192.74.244.209, port: 54044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_124, server: 192.74.231.187, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 38.63.0.78, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -568,557 +96,83 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _HK_香港_11
-      - _TW_台湾_30
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1134,138 +188,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国_55
-      - _JP_日本_18
-      - _US_美国_141
-      - _US_美国_80
-      - _US_美国_50
-      - _KR_韩国_21
-      - _US_美国_99
-      - _US_美国_124
-      - _US_美国_132
-      - _US_美国_116
-      - _DE_英国_8
-      - _NL_荷兰_14
-      - _US_美国_84
-      - _US_美国_95
-      - _US_美国_101
-      - _US_美国_125
-      - _US_美国_126
-      - _US_美国_66
-      - _NL_荷兰_13
-      - _US_美国_105
-      - _US_美国_32
-      - _US_美国_98
-      - _US_美国_89
-      - _US_美国_83
-      - _NL_荷兰_10
-      - _US_美国_109
-      - _US_美国_97
-      - _NL_荷兰_26
-      - _US_美国_134
-      - _US_美国_136
-      - _US_美国_43
-      - _US_美国_135
-      - _US_美国_117
-      - _US_美国_46
-      - _US_美国_88
-      - _NL_荷兰_25
-      - _US_美国_113
-      - _US_美国_38
-      - _US_美国_42
-      - _US_美国_82
-      - _US_美国_114
-      - _US_美国_107
-      - _US_美国_112
-      - _US_美国_121
-      - _US_美国_143
-      - _US_美国_133
-      - _US_美国_37
-      - _US_美国_45
-      - _NL_荷兰_9
-      - _US_美国_130
-      - _US_美国_108
-      - _US_美国_111
-      - _US_美国_40
-      - _US_美国_127
-      - _US_美国_56
-      - _US_美国_115
-      - _US_美国_73
-      - _IN_印度_16
-      - _OM_澳大利亚_27
-      - _US_美国_63
-      - _NL_荷兰_15
-      - _US_美国_57
-      - _US_美国_144
-      - _US_美国_71
-      - _US_美国_118
-      - _US_美国_145
-      - _US_美国_120
-      - _US_美国_102
-      - _US_美国_92
-      - _US_美国_138
-      - _US_美国_58
-      - _US_美国_31
-      - _US_美国_122
-      - _US_美国_34
-      - _US_美国_128
-      - _US_美国_106
-      - _US_美国_139
-      - _US_美国_119
-      - _HK_香港_11
-      - _US_美国_140
-      - _US_美国_72
-      - _US_美国_70
-      - _US_美国_36
-      - _US_美国_64
-      - _US_美国_129
-      - _US_美国_100
-      - _US_美国_74
-      - _US_美国_81
-      - _US_美国_94
-      - _US_美国_131
-      - _US_美国_85
-      - _US_美国_77
-      - _US_美国_103
-      - _US_美国_68
-      - _US_美国_44
-      - _US_美国_93
-      - _US_美国_65
-      - _US_美国_67
-      - _US_美国_104
-      - _US_美国_47
-      - _US_美国_78
-      - _US_美国_76
-      - _US_美国_79
-      - _US_美国_87
-      - _US_美国_49
-      - _US_美国_39
+      - _JP_日本
       - _US_美国_23
-      - _US_美国_41
-      - _US_美国_35
-      - _US_美国_86
-      - _US_美国_123
-      - _US_美国_59
-      - _US_美国_52
-      - _US_美国_75
-      - _US_美国_62
-      - _JP_日本_17
-      - _SG_新加坡_28
-      - _US_美国_96
+      - _US_美国_24
+      - _US_美国_84
+      - _US_美国_47
+      - _US_美国
+      - _US_美国 2
+      - _US_美国_97
       - _US_美国_110
-      - _US_美国_137
-      - _KR_韩国_29
-      - _US_美国_48
-      - _US_美国_53
-      - _US_美国_61
-      - _US_美国_33
-      - _TW_台湾_30
-      - _JP_日本_19
-      - _DE_英国_12
-      - _US_美国_146
-      - _US_美国_51
-      - _CN_中国_2
-      - _CN_中国_5
+      - _US_美国_111
+      - _US_美国_80
+      - _US_美国_134
+      - _US_美国_124
+      - _US_美国 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
