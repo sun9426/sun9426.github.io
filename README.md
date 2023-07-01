@@ -30,7 +30,7 @@
 | 迷你套餐 | 50G | 5元 | 14元 | 28元 |  54元 |
 | 轻量套餐 | 100G | 9.9元 | 27元 | 51元 |  96元 |
 | 标准套餐 | 150G | 14.9元 | 40元 | 76元 |  144元 |
-| 旗舰套餐 | 200G | 19.9元 | 54元 | 102元 |  192元 |
+| 旗舰套餐 | 200G | 19.9元 | 54元 | 102元 |  192元 | 
 
 **免费注册试用: [https://mikasa.cloud/](https://mikasa.cloud/index.php#/register?code=pVa1I1rA)**<br/>
 **免费注册试用: [https://mikasa.cloud/](https://mikasa.cloud/index.php#/register?code=pVa1I1rA)**<br/>
