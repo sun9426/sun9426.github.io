@@ -7,7 +7,7 @@
     - [v2ray订阅](#通用base64v2ray订阅)
     - [clash订阅](#节点更新clash订阅)
 - [抖音改IP](#二支持抖音改IP的VPN)
-
+* ###### 如需免费/低端机场，请移步至[免费公益机场](https://github.com/woniujieshuo/freevpn/blob/main/README.md)  
 ## 一、无视高峰，全天4K高速秒开云加速器
 ### BGP多线接入，高速低延迟
 ### 原生IP解锁流媒体
@@ -51,9 +51,9 @@ https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/v2ray.txt
 ```
 https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/Clash.yaml
 ```
-* ###### 如需免费/低端机场，请移步至[免费公益机场](https://github.com/woniujieshuo/freevpn/blob/main/README.md)  
 
 ### 每日公益流量有限，如果流量用尽，请前往官网注册账号
+* ###### 如需免费/低端机场，请移步至[免费公益机场](https://github.com/woniujieshuo/freevpn/blob/main/README.md)  
 
 ```
 trojan://87caa283-a8d5-4535-aceb-80fcc25d23b5@1j8p01.abzoones.xyz:36116?security=tls&sni=jp01.abpilot.xyz&type=tcp&headerType=none#%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%EF%BC%9A10%20GB
