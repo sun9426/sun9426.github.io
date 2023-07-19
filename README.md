@@ -6,7 +6,7 @@
 - [每日公益](#每日公益流量有限如果流量用尽请前往官网注册账号)
     - [v2ray订阅](#通用base64v2ray订阅)
     - [clash订阅](#节点更新clash订阅)
-- [抖音改IP](#二支持抖音改IP的VPN)
+- [抖音改IP](#支持抖音改IP的VPN)
 - [免费公益机场](https://github.com/woniujieshuo/freevpn/blob/main/README.md)  
 ## 一、无视高峰，全天4K高速秒开云加速器
 ### BGP多线接入，高速低延迟
