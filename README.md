@@ -1,6 +1,6 @@
 **每日分享免费节点、免费机场、ssr节点、v2ray节点、v2ray订阅、clash节点、clash订阅、shadowrocket订阅、Quantumult X订阅、Clash .NET订阅、小火箭节点、小猫咪节点、免费翻墙、免费科学上网、免费梯子、免费trojan节点、蓝灯、谷歌商店、翻墙梯子、安卓VPN、iphone翻墙节点、iphone vpn、一键翻墙浏览器、节点分享、免费SSR、蓝灯、谷歌商店、V2ary免费节点、代理、proxy代理科学上网、TG代理、电报代理、Telegram代理、ip加速、翻墙软件、socks5、破解VPN、机场推荐、节点订阅、破解VPN**
 
-## 导航
+## [导航](https://github.com/sun9426/sun9426.github.io/blob/main/README.md)
 - [简介](#一无视高峰全天4K高速秒开云加速器)
 - [活动](#原生IP解锁流媒体)
 - [每日公益](#每日公益流量有限如果流量用尽请前往官网注册账号)
