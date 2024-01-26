@@ -43,13 +43,13 @@
 ### 通用base64/v2ray订阅
 
 ```
-https://ghproxy.com/https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/subscribe/v2ray.txt
+raw.gitmirror.com/sun9426/sun9426.github.io/main/subscribe/v2ray.txt
 ```
 
 ### 节点更新clash订阅
 
 ```
-https://ghproxy.com/https://raw.githubusercontent.com/sun9426/sun9426.github.io/main/subscribe/Clash.yaml
+raw.gitmirror.com/sun9426/sun9426.github.io/main/subscribe/Clash.yaml
 ```
 
 ### 每日公益流量有限，如果流量用尽，请前往官网注册账号
