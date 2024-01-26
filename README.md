@@ -32,7 +32,7 @@
 | 旗舰套餐 | 200G | 19.9元 | 54元 | 102元 |  192元 | 
 
 **免费注册试用: [https://mikasa.cloud/](https://mikasa.cloud/index.php#/register?code=pVa1I1rA)**<br/>
-**免费注册试用: [https://mikasa.cloud/](https://mikasa.cloud/index.php#/register?code=pVa1I1rA)**<br/>
+**免费注册试用: [https://mikasa.cloud/](https://allbluecloud.xyz/index.php#/register?code=BsaKIwY8)**<br/>
 **免费注册试用:[ https://mikasa.cloud/](https://mikasa.cloud/index.php#/register?code=pVa1I1rA)**<br/>
 
 注：如果全部节点不可用，请先检查客户端是否最新版本。<br/>
