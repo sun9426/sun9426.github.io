@@ -32,7 +32,7 @@
 
 **免费注册试用: [https://mikasa.cloud/](https://mikasa.cloud/index.php#/register?code=pVa1I1rA)**<br/>
 **免费注册试用: [https://mikasa.cloud/](https://allbluecloud.xyz/index.php#/register?code=BsaKIwY8)**<br/>
-**免费注册试用:[ https://mikasa.cloud/](https://mc9kz1ps.cc/index.php#/register?code=pVa1I1rA)**<br/>
+**免费注册试用:[ https://mikasa.cloud/（免翻墙）](https://mc9kz1ps.cc/index.php#/register?code=pVa1I1rA)**<br/>
 
 注：如果全部节点不可用，请先检查客户端是否最新版本。<br/>
   如果不是最新版本，请前往 Mikasa 官网下载最新版本。
