@@ -20,7 +20,7 @@
 
 **日本：Netflix | DMM | Disneyplus(不保证100%） | Abema | Hulu Japan | NicoNico | Telasa | Paravi | U-NEXT | TVer**
 
-### 3月优惠活动：买1年送60天
+### 7月优惠活动：买1年送60天
 
 ### 限时折扣：季付9折 半年付8.5折 年付8折
 
